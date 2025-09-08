@@ -1,0 +1,10 @@
+Et lille C# konsolprogram, der hjælper med at vurdere, om et transportbånd kan bære en given vægt ud fra antal motorer.
+
+Funktioner: 
+  - Spørger brugeren hvor mange motorer der er (x).
+  - Spørger hvor mange kilo der skal transporteres (y).
+  - Beregner forholdet (y / x).
+  - Vurderer om transportbåndet kan bære lasten:
+  - Hvis ratio ≤ 5.6 → "Yes, can carry."
+  - Ellers → "No, can't carry."
+  - Fejlhåndtering hvis vægten (y) er nul.
