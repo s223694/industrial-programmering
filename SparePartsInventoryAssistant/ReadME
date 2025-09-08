@@ -1,0 +1,22 @@
+Et simpelt C# konsolprogram, der fungerer som en “reservedele-assistent”.
+Brugeren kan skrive navnet på en reservedel eller stille et spørgsmål. Programmet svarer ud fra lagerlisten eller giver et fallback-svar.
+
+Funktionalitet: 
+  - Velkomstprompt: Programmet hilser brugeren og spørger hvilke dele de søger.
+  - Match af komponenter: Hvis brugeren skriver en kendt reservedel (fx servo motor), bekræftes at den er på lager.
+  - Spørgsmål: Brugeren kan stille enkle spørgsmål (fx “do you actually have any parts?”) – programmet svarer med en liste af dele.
+  - Fallback: Hvis input ikke genkendes, gives en generel besked med mulighed for at prøve igen.
+  - Afslutning: Brugeren kan til enhver tid skrive exit eller slut for at afslutte samtalen
+
+Struktur: 
+  - Main(): Håndterer samtaleflowet (velkomst, input, afgørelse, svar).
+  - Components: En liste over dele på lager.
+  - QuestionAnswers: Eksempler på spørgsmål og tilhørende standardsvar.
+  - Normalize(): Ensretter input (små bogstaver, fjern mellemrum) for at gøre sammenligningen robust.
+  - MatchesComponent(): Finder ud af om input matcher en del i lageret.
+  - MatchesQuestion(): Finder ud af om input matcher et kendt spørgsmål eller ser ud som et generelt spørgsmå
+
+Noter: 
+  - Programmet bruger normalisering til at ignorere forskelle i store/små bogstaver og ekstra mellemrum.
+  - QuestionAnswers kan nemt udvides med flere spørgsmål/svar.
+  - Components kan udvides med flere dele, uden at ændre logikken.
