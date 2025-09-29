@@ -1,0 +1,21 @@
+# User Access Program
+
+This is a simple C# console program that validates user access based on **ID**, **username**, and **password**.
+
+## Functions
+
+- **User ID**
+  - If `userId > 65536` → the user is an **admin**.
+  - Otherwise → the user is a **regular user**.
+
+- **Username**
+  - Must be at least **3 characters** long.
+
+- **Password**
+  - Must contain at least one of: `$`, `|`, `@`.
+  - Minimum length:
+    - **20 characters** for admin.
+    - **16 characters** for regular user.
+
+- **Exit**
+  - At any input prompt, type `exit` to quit the program.
