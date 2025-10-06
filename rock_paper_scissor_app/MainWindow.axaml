@@ -1,0 +1,84 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyNewApp.MainWindow"
+        Width="440" Height="420"
+        Title="Rock · Paper · Scissors">
+
+  <Border Padding="16">
+    <StackPanel Spacing="16" HorizontalAlignment="Center">
+      <TextBlock Text="Rock · Paper · Scissors" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+      <TextBlock Text="Choose your move:" FontSize="18" HorizontalAlignment="Center"/>
+
+      <!-- buttons-->
+ <Grid ColumnDefinitions="*,*,*" HorizontalAlignment="Stretch" Margin="40,0">
+  <Button x:Name="RockButton" Content="🪨" Classes="choice" Click="OnRockClicked" Grid.Column="0"/>
+  <Button x:Name="PaperButton" Content="📄" Classes="choice" Click="OnPaperClicked" Grid.Column="1"/>
+  <Button x:Name="ScissorsButton" Content="✂️" Classes="choice" Click="OnScissorsClicked" Grid.Column="2"/>
+ </Grid>
+
+
+      <Separator Width="200"/>
+
+      <!-- Computer choice and score -->
+      <StackPanel Spacing="6" HorizontalAlignment="Center">
+        <TextBlock Text="Computer's Choice:" FontWeight="Bold"/>
+        <TextBlock x:Name="ComputerChoiceText" Text="—" FontSize="18" />
+      </StackPanel>
+
+      <StackPanel Spacing="6" HorizontalAlignment="Center">
+        <TextBlock Text="Result:" FontWeight="Bold"/>
+        <TextBlock x:Name="ResultText" Text="—" FontSize="18" />
+      </StackPanel>
+
+      <Separator Width="200"/>
+
+      <!-- Scoreboard -->
+      <StackPanel Orientation="Horizontal" Spacing="30" HorizontalAlignment="Center">
+        <StackPanel>
+          <TextBlock Text="You 🧑" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <TextBlock x:Name="PlayerScoreText" Text="0" FontSize="20" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel>
+          <TextBlock Text="Computer 🤖" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <TextBlock x:Name="ComputerScoreText" Text="0" FontSize="20" HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <StackPanel>
+          <TextBlock Text="Ties 😐" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <TextBlock x:Name="TieScoreText" Text="0" FontSize="20" HorizontalAlignment="Center"/>
+        </StackPanel>
+      </StackPanel>
+
+      <TextBlock x:Name="ErrorText"
+                 Foreground="Red"
+                 Text=""
+                 IsVisible="False"
+                 HorizontalAlignment="Center"/>
+    </StackPanel>
+  </Border>
+
+  <Window.Styles>
+  <!-- Style for emoji choice buttons - removed background for button -->
+  <Style Selector="Button.choice">
+    <Setter Property="FontSize" Value="72"/>
+    <Setter Property="Background" Value="Transparent"/>
+    <Setter Property="BorderBrush" Value="Transparent"/>
+    <Setter Property="Width" Value="100"/>
+    <Setter Property="Height" Value="100"/>
+    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
+    <Setter Property="Cursor" Value="Hand"/>
+  </Style>
+
+  <!-- Hover effect on buttons -->
+  <Style Selector="Button.choice:pointerover">
+    <Setter Property="Opacity" Value="0.8"/>
+    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+    <Setter Property="RenderTransform">
+      <ScaleTransform ScaleX="1.15" ScaleY="1.15"/>
+    </Setter>
+  </Style>
+</Window.Styles>
+
+</Window>
