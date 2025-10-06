@@ -1,0 +1,36 @@
+A small Avalonia UI app made with .NET 8 that lets you play Rock, Paper, Scissors against the computer.
+The game shows the computer’s choice, the result, and keeps track of the score.
+
+Features:
+
+Simple Avalonia UI built from scratch
+
+Click Rock, Paper or Scissors to play
+
+Live score tracking (Player, Computer and Ties)
+
+Scales with the window size
+
+Uses only Avalonia and C#, no extra libraries
+
+Project structure:
+App.axaml / App.axaml.cs - Application startup
+Program.cs - Entry point for Avalonia
+MainWindow.axaml / .cs - UI and logic for the main window
+GameLogic.cs - Core game logic
+MyNewApp.csproj - Project configuration
+README.txt - This file
+
+Requirements:
+
+.NET 8 SDK
+
+Avalonia 11.3 or newer
+
+How to run:
+
+Clone the repository
+
+Open a terminal in the project folder
+
+Run the command: dotnet run
