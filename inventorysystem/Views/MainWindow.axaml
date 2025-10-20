@@ -1,0 +1,55 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:inventory_assistant.ViewModels"
+        x:Class="inventory_assistant.Views.MainWindow"
+        x:CompileBindings="False"
+        Width="1000" Height="600"
+        Title="Inventory System">
+
+
+    <Grid RowDefinitions="Auto,*,Auto" ColumnDefinitions="*,*" Margin="16">
+
+        <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Spacing="12">
+            <TextBlock Text="Inventory System" FontSize="24" FontWeight="Bold"/>
+            <Button Content="Process Next Order"
+                    Click="ProcessNextOrder_Click"/>
+            <TextBlock Text="{Binding TotalRevenue}"
+                       FontSize="18" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Queued Orders -->
+        <Border Grid.Row="1" Grid.Column="0" Margin="0,16,8,0" BorderBrush="Gray" BorderThickness="1" Padding="8">
+            <StackPanel>
+                <TextBlock Text="Queued Orders" FontWeight="Bold" Margin="0,0,0,8"/>
+               <DataGrid ItemsSource="{Binding OrderBook.QueuedOrders}"
+          AutoGenerateColumns="False"
+          IsReadOnly="True">
+    <DataGrid.Columns>
+        <DataGridTextColumn Header="Customer" Binding="{Binding CustomerName}" />
+        <DataGridTextColumn Header="Time" Binding="{Binding Time}" />
+        <DataGridTextColumn Header="Items" Binding="{Binding OrderSummary}" />
+        <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" />
+    </DataGrid.Columns>
+</DataGrid>
+
+            </StackPanel>
+        </Border>
+
+        <!-- Processed Orders -->
+        <Border Grid.Row="1" Grid.Column="1" Margin="8,16,0,0" BorderBrush="Gray" BorderThickness="1" Padding="8">
+            <StackPanel>
+                <DataGrid ItemsSource="{Binding OrderBook.ProcessedOrders}"
+          AutoGenerateColumns="False"
+          IsReadOnly="True">
+    <DataGrid.Columns>
+        <DataGridTextColumn Header="Customer" Binding="{Binding CustomerName}" />
+        <DataGridTextColumn Header="Time" Binding="{Binding Time}" />
+        <DataGridTextColumn Header="Items" Binding="{Binding OrderSummary}" />
+        <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" />
+    </DataGrid.Columns>
+</DataGrid>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
