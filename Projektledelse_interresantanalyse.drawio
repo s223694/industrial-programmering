@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Side-1" id="pYRlxV4KzzsxYBCWTHvO">
+    <mxGraphModel dx="487" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-4" value="" style="endArrow=none;html=1;rounded=0;fillColor=#60a917;strokeColor=light-dark(#55c90d, #73b14c);startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#2dc80e, #ededed);fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Gidsel&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;shadow=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-8" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Ressourcepersonale&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;shadow=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-9" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Grå eminence&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;shadow=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-10" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Ekstern&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;shadow=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="240" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="80" as="sourcePoint" />
+            <mxPoint x="560" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="401.57894736842104" as="sourcePoint" />
+            <mxPoint x="560" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-16" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Dansk metal&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Medlemmer&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="45" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-19" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Læger&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-20" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Sygeplejesker/lægestuderende&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-22" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Virksomhedsledelse&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-23" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Forsikringsselskaber&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-25" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Pressen&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-27" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Hospitaler&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-29" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Fonde&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-30" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Hjerteforeningen&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-31" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Politikere&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-33" value="&lt;b&gt;Magt&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-35" value="Interesse" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-36" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;PLO&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-38" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Tillidsrepræsentantder&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gWl6gJrn8Tk6OLi9XN7V-39" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Sundhedsstyrelsen&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
